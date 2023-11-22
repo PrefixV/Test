@@ -1,0 +1,1175 @@
+@font-face {
+    font-family: 'ClashDisplay-Variable';
+    src: url('fonts/ClashDisplay-Variable.woff2') format('woff2'),
+         url('fonts/ClashDisplay-Variable.woff') format('woff'),
+         url('fonts/ClashDisplay-Variable.ttf') format('truetype');
+         font-weight: 200 700;
+         font-display: swap;
+         font-style: normal;
+  }
+  
+  
+  @font-face {
+    font-family: 'ClashDisplay-Extralight';
+    src: url('fonts/ClashDisplay-Extralight.woff2') format('woff2'),
+         url('fonts/ClashDisplay-Extralight.woff') format('woff'),
+         url('fonts/ClashDisplay-Extralight.ttf') format('truetype');
+         font-weight: 200;
+         font-display: swap;
+         font-style: normal;
+  }
+  
+  
+  @font-face {
+    font-family: 'ClashDisplay-Light';
+    src: url('fonts/ClashDisplay-Light.woff2') format('woff2'),
+         url('fonts/ClashDisplay-Light.woff') format('woff'),
+         url('fonts/ClashDisplay-Light.ttf') format('truetype');
+         font-weight: 300;
+         font-display: swap;
+         font-style: normal;
+  }
+  
+  
+  @font-face {
+    font-family: 'ClashDisplay-Regular';
+    src: url('fonts/ClashDisplay-Regular.woff2') format('woff2'),
+         url('fonts/ClashDisplay-Regular.woff') format('woff'),
+         url('fonts/ClashDisplay-Regular.ttf') format('truetype');
+         font-weight: 400;
+         font-display: swap;
+         font-style: normal;
+  }
+  
+  
+  @font-face {
+    font-family: 'ClashDisplay-Medium';
+    src: url('fonts/ClashDisplay-Medium.woff2') format('woff2'),
+         url('fonts/ClashDisplay-Medium.woff') format('woff'),
+         url('fonts/ClashDisplay-Medium.ttf') format('truetype');
+         font-weight: 500;
+         font-display: swap;
+         font-style: normal;
+  }
+  
+  
+  @font-face {
+    font-family: 'ClashDisplay-Semibold';
+    src: url('fonts/ClashDisplay-Semibold.woff2') format('woff2'),
+         url('fonts/ClashDisplay-Semibold.woff') format('woff'),
+         url('fonts/ClashDisplay-Semibold.ttf') format('truetype');
+         font-weight: 600;
+         font-display: swap;
+         font-style: normal;
+  }
+  
+  
+  @font-face {
+    font-family: 'ClashDisplay-Bold';
+    src: url('fonts/ClashDisplay-Bold.woff2') format('woff2'),
+         url('fonts/ClashDisplay-Bold.woff') format('woff'),
+         url('fonts/ClashDisplay-Bold.ttf') format('truetype');
+         font-weight: 700;
+         font-display: swap;
+         font-style: normal;
+  }
+
+ @font-face {
+    font-family: 'Satoshi-VariableItalic';
+    src: url('fonts/Satoshi-VariableItalic.woff2') format('woff2'),
+         url('fonts/Satoshi-VariableItalic.woff') format('woff'),
+         url('fonts/Satoshi-VariableItalic.ttf') format('truetype');
+         font-weight: 300 900;
+         font-display: swap;
+         font-style: italic;
+  }
+  
+  
+  @font-face {
+    font-family: 'Satoshi-Light';
+    src: url('fonts/Satoshi-Light.woff2') format('woff2'),
+         url('fonts/Satoshi-Light.woff') format('woff'),
+         url('fonts/Satoshi-Light.ttf') format('truetype');
+         font-weight: 300;
+         font-display: swap;
+         font-style: normal;
+  }
+  
+  
+  @font-face {
+    font-family: 'Satoshi-LightItalic';
+    src: url('fonts/Satoshi-LightItalic.woff2') format('woff2'),
+         url('fonts/Satoshi-LightItalic.woff') format('woff'),
+         url('fonts/Satoshi-LightItalic.ttf') format('truetype');
+         font-weight: 300;
+         font-display: swap;
+         font-style: italic;
+  }
+  
+  
+  @font-face {
+    font-family: 'Satoshi-Regular';
+    src: url('fonts/Satoshi-Regular.woff2') format('woff2'),
+         url('fonts/Satoshi-Regular.woff') format('woff'),
+         url('fonts/Satoshi-Regular.ttf') format('truetype');
+         font-weight: 400;
+         font-display: swap;
+         font-style: normal;
+  }
+  
+  
+  @font-face {
+    font-family: 'Satoshi-Italic';
+    src: url('fonts/Satoshi-Italic.woff2') format('woff2'),
+         url('fonts/Satoshi-Italic.woff') format('woff'),
+         url('fonts/Satoshi-Italic.ttf') format('truetype');
+         font-weight: 400;
+         font-display: swap;
+         font-style: italic;
+  }
+  
+  
+  @font-face {
+    font-family: 'Satoshi-Medium';
+    src: url('fonts/Satoshi-Medium.woff2') format('woff2'),
+         url('fonts/Satoshi-Medium.woff') format('woff'),
+         url('fonts/Satoshi-Medium.ttf') format('truetype');
+         font-weight: 500;
+         font-display: swap;
+         font-style: normal;
+  }
+  
+  
+  @font-face {
+    font-family: 'Satoshi-MediumItalic';
+    src: url('fonts/Satoshi-MediumItalic.woff2') format('woff2'),
+         url('fonts/Satoshi-MediumItalic.woff') format('woff'),
+         url('fonts/Satoshi-MediumItalic.ttf') format('truetype');
+         font-weight: 500;
+         font-display: swap;
+         font-style: italic;
+  }
+  
+  
+  @font-face {
+    font-family: 'Satoshi-Bold';
+    src: url('fonts/Satoshi-Bold.woff2') format('woff2'),
+         url('fonts/Satoshi-Bold.woff') format('woff'),
+         url('fonts/Satoshi-Bold.ttf') format('truetype');
+         font-weight: 700;
+         font-display: swap;
+         font-style: normal;
+  }
+  
+  
+  @font-face {
+    font-family: 'Satoshi-BoldItalic';
+    src: url('fonts/Satoshi-BoldItalic.woff2') format('woff2'),
+         url('fonts/Satoshi-BoldItalic.woff') format('woff'),
+         url('fonts/Satoshi-BoldItalic.ttf') format('truetype');
+         font-weight: 700;
+         font-display: swap;
+         font-style: italic;
+  }
+  
+  
+  @font-face {
+    font-family: 'Satoshi-Black';
+    src: url('fonts/Satoshi-Black.woff2') format('woff2'),
+         url('fonts/Satoshi-Black.woff') format('woff'),
+         url('fonts/Satoshi-Black.ttf') format('truetype');
+         font-weight: 900;
+         font-display: swap;
+         font-style: normal;
+  }
+  
+  
+  @font-face {
+    font-family: 'Satoshi-BlackItalic';
+    src: url('fonts/Satoshi-BlackItalic.woff2') format('woff2'),
+         url('fonts/Satoshi-BlackItalic.woff') format('woff'),
+         url('fonts/Satoshi-BlackItalic.ttf') format('truetype');
+         font-weight: 900;
+         font-display: swap;
+         font-style: italic;
+  }
+  
+
+
+body {
+margin: 0;
+padding: 0;    
+}
+
+.topside {
+display: flex;
+flex-flow: row nowrap; 
+justify-content: space-between;   
+}
+
+
+.topside h1 {
+font-family: ClashDisplay-Regular;
+font-size: 24px;
+font-weight: 400;
+align-items: center;
+display: flex;
+}
+
+.search {
+width: 24px;
+height: 24px;    
+}
+
+
+.imgrow1 {
+display: flex;
+align-items: center;
+justify-content: center;
+flex-flow: row nowrap;
+margin-left: 60px; 
+}
+
+.imgrow2 {
+display: flex;
+align-items: center;
+justify-content: center;
+flex-flow: row nowrap;
+margin-right: 60px;
+}
+
+.burger {
+width: 24px;
+height: 28px;
+visibility: hidden;     
+}
+
+.imgrow2 img {
+margin-right: 10px;    
+}
+
+hr {
+width: 95%;
+background: #0000001A;
+border: 1px solid #0000001A    
+}
+
+main {
+display: flex;
+flex-flow: column nowrap;    
+}
+
+nav, ul {
+display: flex;
+justify-content: center;
+list-style: none;    
+}
+
+li {
+margin-right: 40px;
+font-family:Satoshi-Regular; 
+font-size: 16px;
+font-weight: 400;   
+}
+
+.lastli {
+margin-right: 0;    
+}
+
+.preview {
+width: 100%;
+height: 704px;
+background-image:url(images/bg/bg1.jpg);
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+margin-top: 10px;
+background-attachment: fixed;
+display: flex;
+flex-flow: column nowrap;
+}
+
+.cardcol {
+width: 630px;
+height: 444px;
+background-color: white; 
+display: flex;
+flex-flow: column nowrap;
+align-self: flex-end;
+margin-right: 200px;
+margin-top: 130px;   
+}
+
+.txt1 {
+font-size: 32px;
+font-family: ClashDisplay-Regular;
+font-weight: 400px;
+width: 500px;    
+}
+
+.txt2 {
+    font-family: Satoshi-Regular;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #5B5676;
+}
+
+.txtdiv {
+position: relative;
+top: 48px;
+left: 56px;    
+}
+
+.button {
+width: 170px;
+height: 56px;
+background-color: rgb(255, 255, 255);
+position: relative;
+top: 130px;
+left: 56px;    
+}
+
+.cardcon svg {
+margin-left: 20px;     
+}
+
+.button:hover {
+background-color: lightgrey;
+transition: 0.3s;     
+}
+
+.button p {
+font-family: Satoshi-Regular;
+font-size: 16px;
+color: #2A254B; 
+text-align: center;   
+}
+
+.feature {
+display: flex;
+justify-content: center;
+flex-flow: column nowrap;
+align-items: center ;  
+margin-top: 50px;  
+}
+
+.txt3 {
+    font-family: ClashDisplay-Regular;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 34px;
+    letter-spacing: 0em;
+}
+
+.card1, .card2, .card3, .card4 {
+background-color: rgb(243, 243, 243);
+width: 305px;
+height: 244px; 
+display: flex;
+flex-flow: column nowrap;
+justify-content: center;   
+}
+
+.cardrow {
+display: flex;
+flex-flow: row nowrap;    
+}
+
+.card1, .card2, .card3 {
+margin-right: 20px;    
+}
+
+.card1 p, .card2 p, .card3 p, .card4 p{
+font-family: ClashDisplay-Regular;
+font-size: 20px;
+font-weight: 400;
+line-height: 28px;
+letter-spacing: 0em;
+text-align: left;
+color: #2A254B;
+margin-left: 20px;    
+}
+
+h3 {
+color: #2A254B;
+font-family: Satoshi-Medium;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0em;
+text-align: left;
+margin-left: 20px;
+}
+
+.cardcon {
+margin: 0 auto;   
+}
+
+.products {
+display: flex;
+justify-content: center;
+flex-flow: row nowrap;
+margin-top: 100px;     
+}
+
+.products img {
+width: 305px;
+height: 375px;     
+}
+
+.prod1, .prod2, .prod3, .prod4 {
+display: flex;
+flex-flow: column nowrap;
+font-family: ClashDisplay-Regular;
+font-size: 20px;
+font-weight: 400;
+line-height: 28px;
+letter-spacing: 0em;
+text-align: left;
+margin-right: 30px;
+}
+
+.prod4 {
+margin-right: 0;     
+}
+
+.prod1:hover, .prod2:hover, .prod3:hover, .prod4:hover {
+transform: scale(1.05);
+transition: 0.6s;     
+}
+
+.button2 {
+     width: 170px;
+     height: 56px;
+     background-color: rgb(255, 255, 255);
+     margin: 0 auto;
+     margin-top: 30px;    
+     }
+     
+     .button2:hover {
+     background-color: lightgrey;
+     transition: 0.3s;     
+     }
+     .button2 p {
+          font-family: Satoshi-Regular;
+          font-size: 16px;
+          color: #2A254B; 
+          text-align: center;   
+          }
+
+.idearow {
+display: flex;
+justify-content: center;
+flex-flow: row nowrap;
+margin-top: 60px;
+margin-bottom: 80px;     
+}          
+          
+
+.idea1 {
+width: 630px;
+height: 478px;
+background-color: #2A254B;
+display: flex;
+flex-flow: column nowrap;
+margin-right: 20px;     
+}
+
+.idea2 {
+width: 630px;
+height: 478px;
+display: flex;
+flex-flow: column nowrap;
+background-image: url(images/bg/bg2.jpg);
+background-repeat: no-repeat;
+background-size: cover;    
+}
+
+.idea1 h1 {
+     font-family: ClashDisplay-Regular;
+     font-size: 32px;
+     font-weight: 400;
+     line-height: 39px;
+     letter-spacing: 0em;
+     text-align: left;
+     color: white;
+}
+
+.idea1 p {
+     font-family: Satoshi-Regular;
+     font-size: 18px;
+     font-weight: 400;
+     line-height: 24px;
+     letter-spacing: 0em;
+     text-align: left;
+     color: white;
+}
+
+.button3 {
+     width: 170px;
+     height: 56px;
+     background-color:#F9F9F926;
+     margin: 0 auto;
+     margin-top: 150px;
+     margin-left: 64px;    
+     }
+     
+     .button3:hover {
+     background-color: rgba(211, 211, 211, 0.395);
+     transition: 0.3s;     
+     }
+     .button3 p {
+          font-family: Satoshi-Regular;
+          font-size: 16px;
+          color: white; 
+          text-align: center;   
+          }
+
+
+.ideatxt {
+margin-top: 64px;
+margin-left: 64px;     
+}          
+
+
+.signupcon {
+background-image: url(images/bg/bg3.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+background-attachment: fixed;
+height: 444px;
+display: flex;
+align-items: center;
+justify-content: center;
+flex-flow: column nowrap;     
+}
+
+.signtxt h1{
+     font-family: ClashDisplay-Regular;
+     font-size: 32px;
+     font-weight: 400;
+     line-height: 45px;
+     letter-spacing: 0em;
+     text-align: center;
+     color: white;
+}
+
+.signtxt p {
+     font-family: Satoshi-Regular;
+     font-size: 18px;
+     font-weight: 400;
+     line-height: 27px;
+     letter-spacing: 0em;
+     text-align: center;
+     color: white;
+}
+
+.checkrow {
+display: flex;
+flex-flow: row nowrap;     
+}
+
+.checkrow p {
+color: white;  
+font-family: Satoshi-Regular;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0em;
+text-align: center;
+margin-right: 30px;
+}
+
+.emailrow {
+display: flex;
+flex-flow: row nowrap;
+justify-content: center;
+align-items: center;     
+}
+
+.emailcon {
+width: 354px;
+height: 56px;
+background-color: white; 
+border: none;    
+}
+
+.emailcon::placeholder {
+color: lightgray;  
+font-family: Satoshi-Regular;
+font-size: 16px;
+font-weight: 400;
+line-height: 22px;
+letter-spacing: 0em;
+text-align: left;
+padding-left: 30px;
+}
+
+.btnsgnup {
+width: 118px;
+height: 58px;
+background-color: #2A254B;
+border: none; 
+}
+
+.btnsgnup:hover {
+background-color: #1a1631;     
+}
+
+.signupbtn {
+     font-family: Satoshi-Regular;
+     font-size: 16px;
+     font-weight: 400;
+     line-height: 22px;
+     letter-spacing: 0em;
+     text-align: left;
+     margin: 0 auto; 
+     color: white;  
+}
+
+footer {
+display: flex;
+flex-flow: column nowrap; 
+background-color: #2A254B;
+height: 380px;     
+}
+
+.footercon {
+display: flex;
+flex-flow: row nowrap;    
+}
+
+.footercol1, .footercol2, .footercol3 {
+display: flex;
+flex-flow: column nowrap; 
+margin-top: 58px;
+padding-left: 90px;    
+}
+
+.footercol4 {
+margin-top: 58px;     
+}
+
+
+
+.footh {
+     font-family: ClashDisplay-Regular;
+     font-size: 16px;
+     font-weight: 400;
+     line-height: 20px;
+     letter-spacing: 0em;
+     text-align: left;
+     color: white;
+}
+
+.footp {
+     font-family: Satoshi-Regular;
+     font-size: 14px;
+     font-weight: 400;
+     line-height: 19px;
+     letter-spacing: 0em;
+     text-align: left;
+     color: white;
+     margin-top: -5px;     
+}
+
+.maillist {
+display: flex;
+flex-flow: column nowrap;
+margin-left: 250px;
+}
+
+
+.maillist p {
+     font-family: ClashDisplay-Regular;
+     font-size: 16px;
+     font-weight: 400;
+     line-height: 20px;
+     letter-spacing: 0em;
+     text-align: left;
+     color: white;
+}
+
+.holdermail {
+width: 509px;
+height: 54px;
+background-color: rgba(255, 255, 255, 0.15);
+border: none;     
+}
+
+.holdermail::placeholder {
+     font-family: Satoshi-Regular;
+     font-size: 16px;
+     font-weight: 400;
+     line-height: 22px;
+     letter-spacing: 0em;
+     text-align: left;
+     color: white;
+     padding-left: 30px;     
+}
+
+.btnmaillist {
+width: 118px;
+height: 56px;
+border: none;
+background-color: white;
+}
+
+footer hr {
+color: #4E4D93;
+border: 1px solid #4E4D93;
+width: 95%;
+}
+
+.downside p {
+     font-family: Satoshi-Regular;
+     font-size: 14px;
+     font-weight: 400;
+     line-height: 19px;
+     letter-spacing: 0em;
+     text-align: left;
+     color: white;
+     margin-left: 90px;
+}
+
+.downside {
+display: flex;
+flex-flow: row nowrap;
+align-items: center;
+justify-content: space-between;     
+}
+
+.footercol4 {
+margin-left: 200px;     
+}
+
+.socmed {
+display: flex;
+flex-flow: row nowrap;
+margin-right: 90px;     
+}
+
+.socmed svg {
+margin-left: 10px;     
+}
+
+.btnpar {
+     font-family: Satoshi-Regular;
+     font-size: 16px;
+     font-weight: 400;
+     line-height: 24px;
+     letter-spacing: 0em;
+     text-align: left;
+     color: #2A254B;
+     text-align: center;     
+}
+
+.emailrow2 {
+display: flex;
+align-items: center;
+flex-flow: row nowrap;     
+}
+
+@media screen and (max-width: 1440px) {
+.holdermail {
+width: 400px;
+}     
+
+.btnmaillist {
+width: 100px; 
+}
+}
+
+.maillist {
+margin-left: 0;     
+}
+
+
+@media screen and (max-width: 1024px) {
+   
+body {
+display: flex;
+}
+
+.topside {
+justify-content: space-between; 
+}
+
+.topside h1 {
+align-self: center;     
+}
+
+.preview {
+width: 1024px;     
+}
+
+.cardcol {
+width: 60%;     
+}
+
+.cardcon {
+width: 200px;     
+}
+
+
+.cardrow {
+width: 1000px;     
+}
+
+.products img {
+width: 200px;
+height: 275px;
+}
+
+.idea1{
+width: 470px;
+height: 370px;     
+}
+
+.idea2 {
+width: 470px;
+height: 370px;     
+}
+
+.cardcon p {
+font-size: 16px;     
+}
+
+.cardcon h3 {
+font-size: 13px;     
+}
+
+.cardrow {
+justify-content: center;     
+}
+
+.idea1 h1{
+font-size: 20px;
+}
+
+.card1, .card2, .card3, .card4 {
+width: 200px;     
+}
+
+
+.idea p {
+font-size: 14px;     
+}
+
+.holdermail {
+     width: 200px;
+     }     
+     
+     .btnmaillist {
+     width: 80px; 
+     }
+
+     .maillist {
+     margin-left: -100px;     
+     }
+
+     .imgrow2 {
+     margin-right: 25px;     
+     }
+}
+
+@media screen and (max-width:768px){
+.preview {
+background-image: url(images/bg/bg1425.png);
+background-size: contain; 
+background-attachment: fixed;
+background-position: center, center;
+}
+     
+.signupcon {
+background-image: url(images/bg/bg3425.png); 
+background-size: cover;
+background-attachment: fixed;    
+}
+
+}
+
+
+
+
+@media screen and (max-width:425px) and (min-width:320px){
+nav, ul{
+visibility: hidden; 
+width: 425px;
+margin: 0;
+padding: 0;    
+}    
+
+nav li {
+width: 10px;     
+}
+
+.imgrow2 {
+visibility: hidden;     
+}
+
+.topside {
+justify-content: flex-end; 
+width: 425px;    
+}
+
+.preview {
+width: 425px;
+display: flex;
+flex-flow: column wrap;
+z-index: 1;
+background-image: url(images/bg/bg1425.png);
+background-size: contain;
+transform: scale(1);
+background-attachment: fixed;
+}
+
+.cardrow {
+display: flex;
+flex-flow: column wrap;
+width: 425px;         
+}
+
+.card1, .card2, .card3, .card4 {
+margin-left: 20px;
+margin-top: 30px; 
+background-color: transparent;    
+}
+
+.card1 p, .card2 p, .card3 p, .card4 p {
+font-size: 25px;
+width: 380px;     
+}
+
+.card1 h3, .card2 h3, .card3 h3, .card4 h3 {
+font-size: 19px; 
+width: 380px; 
+}
+
+.txt3 {
+width: 300px; 
+align-self: flex-start;
+margin-left: 20px;    
+}
+
+.feature {
+width: 425px;     
+}
+
+.products img {
+width: 163px;
+height: 288px;     
+}
+
+.products {
+display: flex;
+justify-content: center;
+align-items: center;
+flex-wrap: wrap;
+width: 425px;
+margin-left: -8px;     
+}
+
+.prod2 {
+margin-right: 0;     
+}
+
+.idearow {
+display: flex;
+flex-flow: column wrap;
+     
+}
+
+.idea1, .idea2 {
+width: 425px;     
+}
+
+.idea1 {
+margin-bottom: 50px;
+margin-right: 0;     
+}
+
+.signupcon {
+width: 425px; 
+padding-bottom: 30px;
+background-image: url(images/bg/bg3425.png);
+background-size: cover;
+transform: scale(1);  
+}
+
+.signtxt h1, .signtxt p{
+text-align: left;     
+}
+
+.signtxt h1 {
+font-size: 30px;
+margin-left: 30px;     
+}
+
+.signtxt p {
+font-size: 15px;
+margin-left: 30px;     
+}
+
+.burger {
+visibility: visible;     
+}
+
+.menu, .burger {
+position: relative;
+top: 1px;
+left: 5px;    
+}
+
+
+.checkrow {
+flex-flow: column wrap;
+align-self: flex-start;    
+}
+
+.checkrow p{
+text-align: left; 
+margin-left: 30px;
+font-size: 20px;    
+}
+
+.emailcon {
+width: 300px;     
+}
+
+.btnsgnup {
+width: 100px;     
+}
+
+footer {
+width: 425px;
+height: auto;     
+}
+
+.footercon {
+flex-wrap: wrap;
+height: auto;    
+}
+
+.cardcol {
+z-index: 2;    
+}
+
+footer hr {
+margin-top: 20px;
+margin-bottom: 20px;     
+}
+
+.socmed {
+visibility: hidden;     
+}
+
+.downside p {
+width: auto; 
+display: flex;
+margin: 0; 
+text-align: center;  
+font-size: 20px; 
+
+}
+
+.downside {
+justify-content: center;
+flex-flow: column nowrap;  
+}
+
+
+.footercol1 {
+padding-left: 30px;     
+}
+
+.footh {
+font-size: 23px;     
+}
+
+.footp {
+font-size: 18px;     
+}
+
+.footercol3 {
+padding-left: 30px;     
+}
+
+.holdermail {
+width: 300px;     
+}
+
+.footercol4 {
+margin-left: 120px;     
+}
+
+.maillist p{
+font-size: 20px;
+}
+
+.ideatxt h1 {
+font-size: 25px     
+}
+
+.ideatxt {
+margin: 0;
+margin-left: 30px;
+margin-top: 20px;     
+}
+
+.button3 {
+margin-top: 50px;
+width: 360px;  
+text-align: center;
+margin-left: 30px;   
+}
+
+.cardcol {
+width: 425px;
+margin: 0;     
+}
+
+.button {
+margin-top: -50px;
+width: 300px;     
+}
+
+.txtdiv {
+width: 400px; 
+margin-left: -40px;    
+}
+
+.txt1 {
+width: 400px;
+font-size: 27px;    
+}
+
+.topside h1 {
+position: relative;
+right:180px;     
+}
+
+.imgrow1 {
+position: relative;
+left: 120px; 
+margin: 0;    
+}
+
+
+.preview {
+background: none;
+height: 450px;     
+}
+
+.px425 {
+background-image: url(images/bg/bg1425.png);
+background-size: cover;
+width: 425px;
+height: 500px;
+background-position: center, center;     
+}
+
+}
